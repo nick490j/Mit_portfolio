@@ -4,27 +4,30 @@ body {
 
   box-sizing: border-box;
 }
-p,
-li {
+.logo {
+  width: 30%;
+}
+ol,
+p {
   font-family: "Luxurious Roman", cursive;
   text-align: start;
   padding-left: 10px;
+  font-size: 16px;
 }
 
+li {
+  font-family: "sail";
+  text-align: start;
+  font-size: 40px;
+}
 img {
   width: 100%;
 }
 
 /** landingpage - splashbillede og tekst*/
 * .main_section {
-  text-align: center;
-  color: black;
+  display: grid;
 }
-.splashtekst {
-  color: black;
-  position: absolute;
-}
-
 .splashbillede {
   margin-top: 42px;
   padding: 1rem;
@@ -32,52 +35,51 @@ img {
 
   background: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47, #edc976);
 }
+.splashtekst {
+  line-height: 10px;
+  left: 35px;
+  background: -webkit-linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /** landingpage - tema section*/
 
-.tema_section {
-  margin: 20px;
-}
 .tema1 {
   text-align: center;
   border-radius: 20px 20px 20px 20px;
-  height: 50px;
   background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
 }
 .tema2 {
   text-align: center;
   border-radius: 20px 20px 20px 20px;
-  height: 50px;
 
   background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
 }
 .tema3 {
   text-align: center;
   border-radius: 20px 20px 20px 20px;
-  height: 50px;
 
   background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
 }
 .tema4 {
   text-align: center;
   border-radius: 20px 20px 20px 20px;
-  height: 50px;
   background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
 }
 .tema5 {
   text-align: center;
   border-radius: 20px 20px 20px 20px;
-  height: 50px;
 
   background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
 }
 .tema6 {
   text-align: center;
   border-radius: 20px 20px 20px 20px;
-  height: 50px;
 
   background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
 }
+/*footer*/
 
 footer {
   border-radius: 20px 20px 20px 20px;
@@ -85,6 +87,8 @@ footer {
   margin-top: 20px;
   background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
 }
+
+/*navigation*/
 
 .nav_container {
   display: flex;
@@ -99,27 +103,30 @@ footer {
   gap: 20px;
   display: flex;
   position: absolute;
-  border-top: 5px solid black;
 }
 nav li {
-  margin-top: 100px;
+  margin-top: 20px;
+  background: -webkit-linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+/*menu knap*/
 .toggle-btn {
-  left: 0.5px;
+  left: 20px;
   background: transparent;
   border: none;
   display: flex;
   min-width: 44px;
   min-height: 44px;
   font-size: 1.1rem;
-  color: gold;
   position: absolute;
+  background: -webkit-linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 a {
   color: black;
-
-  font-size: 2em;
 }
 
 nav {
@@ -130,40 +137,51 @@ nav.shown {
 }
 
 nav ul {
-  font-family: "Sail", cursive;
   display: flex;
   flex-direction: column;
   left: 0%;
-  top: 0%;
+  top: 16%;
   width: 100%;
-  height: 100%;
   height: auto;
-  border-top: 10px black;
-  background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
+
+  background: url(/baggrund.webp);
 }
 
 iframe {
   aspect-ratio: 16/9;
-}
-
-embed {
-  aspect-ratio: 16/9;
+  background: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47, #edc976);
 }
 
 h1 {
-  background: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
-  text-align: center;
   letter-spacing: 1px;
   font-family: "Sail", cursive;
-  border-radius: 20px 20px 20px 20px;
+  font-size: 45px;
+  text-align: center;
+  background: -webkit-linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-h2,
-h3,
+h2 {
+  padding: 10px;
+  font-family: "Sail", cursive;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+h3 {
+  font-family: "Sail", cursive;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
 h4 {
   font-family: "Sail", cursive;
   color: black;
   text-align: center;
   letter-spacing: 1px;
+  font-size: 25px;
 }
 
 /******* TEMA1/*/
@@ -188,6 +206,9 @@ h4 {
 }
 
 #secondsection_tema1 {
+  background: -webkit-linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 20px;
   border-radius: 20px 20px 20px 20px;
   line-height: 3.5vh;
@@ -514,16 +535,54 @@ h4 {
   );
 }
 
+.firstsection_tema6 {
+  margin: 20px;
+  border-radius: 20px 20px 20px 20px;
+  line-height: 3.5vh;
+
+  background: linear-gradient(
+    #f7ef8a,
+    #ae8625,
+    #d2ac47,
+    #edc976,
+    #f7ef8a,
+    #d2ac47,
+    #edc976,
+    #f7ef8a,
+    #d2ac47,
+    #edc976
+  );
+}
+.thirdsection_tema6 {
+  margin: 20px;
+  border-radius: 20px 20px 20px 20px;
+  line-height: 3.5vh;
+
+  background: linear-gradient(
+    #f7ef8a,
+    #ae8625,
+    #d2ac47,
+    #edc976,
+    #f7ef8a,
+    #d2ac47,
+    #edc976,
+    #f7ef8a,
+    #d2ac47,
+    #edc976
+  );
+}
+
 @media (min-width: 600px) {
   body {
-    margin-inline: 100px;
+    margin-inline: 50px;
   }
 
   .tema_section {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr 2fr;
-    row-gap: 20px;
+    row-gap: 40px;
+    text-align: center;
     column-gap: 20px;
     font-size: 10px;
   }
