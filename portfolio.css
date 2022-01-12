@@ -16,7 +16,9 @@ p {
   padding-left: 10px;
   font-size: 16px;
 }
-
+footer{
+  font-family: sail;
+}
 li {
   font-family: "sail";
   text-align: start;
@@ -29,6 +31,7 @@ button{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-radius: 20px 20px 20px 20px;
+  
 
 
   
@@ -412,11 +415,17 @@ object-fit: cover;
   );
 }
 
-.secondsection_tema3 {
+.secondsection_tema3  {
   margin: 20px;
   border-radius: 20px 20px 20px 20px;
   line-height: 3.5vh;
+  background: -webkit-linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+;
 }
+
+
 
 .thirdsection_tema3 {
   margin: 20px;
@@ -852,6 +861,30 @@ margin-top:-200px;}
   .tema2_gridcontainer {
    margin: 100px;
   }
+
+  .gridcontainer_tema4 {
+    margin: 200px;
+  }
+
+  .gridcontainer_tema5 {
+    margin: 200px;
+  }
+
+  .gridcontainer_tema6 {
+    margin: 200px;
+  }
+
+  .gridcontainer_tema6 h2 {
+    background: -webkit-linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+
+
+
+
 
 
 
