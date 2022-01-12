@@ -1,5 +1,5 @@
 body {
-  background: url(/grainy.png);
+  background: url(grainy.png);
   margin: 20px;
 
   box-sizing: border-box;
@@ -25,17 +25,12 @@ li {
   font-size: 40px;
 }
 
-button{
-  font-family: luxurious roman;
-  background: url(/baggrund.webp);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-radius: 20px 20px 20px 20px;
+
   
 
 
   
-}
+
 
 
 
@@ -57,10 +52,10 @@ img {
 }
 .splashtekst {
   left: 35px;
-  background: -webkit-linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc976);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
+
+
+
 
 /** landingpage - tema section*/
 
@@ -161,7 +156,7 @@ nav ul {
   width: 100%;
   height: auto;
 
-  background: url(/baggrund.webp);
+  background: url(baggrund.webp);
 }
 
 iframe {
@@ -355,17 +350,20 @@ h4 {
 
   border-radius: 20px 20px 20px 20px;
   line-height: 3.5vh;
-object-fit: cover;
+object-fit: cover;  width: 100%;
+
  
 }
 .thirdsectiom_tema2 {
+  object-fit: cover;
+
   margin: 20px;
 
 
   border-radius: 20px 20px 20px 20px;
   line-height: 3.5vh;
   text-align: center;
-  size: 200%;
+  width: 100%;
 
   
 }
